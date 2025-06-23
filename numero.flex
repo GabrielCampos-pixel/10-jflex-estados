@@ -20,7 +20,7 @@
 
 
 <YYINITIAL> {
-    "<TD ALIGN=\"RIGHT\" WIDTH=\"50%\"><B>"   { yybegin(NUMERO); numero.setLength(0); }  // Inicia o comentário.
+    "<TD ALIGN=\"RIGHT\" WIDTH=\"50%\"><B>"   { yybegin(NUMERO); numero.setLength(0); } 
     [^]     { /* Ignora qualquer caracter fora de comentários. */ }
 }
 
