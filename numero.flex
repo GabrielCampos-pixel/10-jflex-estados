@@ -31,7 +31,3 @@
     }
     [0-9]","[0-9]{3}","[0-9]{3}  { numero.append(yytext()); }
 }
-
-//para testar primeio faço a instalação do jlfex:sudo apt update;     sudo apt install jflex
-//após este processo faço jflex numero.flex para gerar o arquivo java,depois faço o javac numero.java para gerar a class
-//Para mostrar a saida no terminal faço um java numero p7022487.html
